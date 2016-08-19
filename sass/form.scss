@@ -1,5 +1,12 @@
 input:not([type=submit]) {
-  
+
+}
+input[type=search] {
+  width: 173px;
+  height: 29px;
+  background-color: white;
+  border: 1px solid #cdcdcd;
+  outline: none;
 }
 
 input[type=submit] {
@@ -16,4 +23,28 @@ input[type=submit] {
 }
 input.error {
   border: 2px solid red !important;
+}
+
+.header-search {
+  position: relative;
+  width: 173px;
+  height: 29px;
+  float: left;
+  margin-left: 39px;
+  input {
+    padding-right: 30px;
+    padding-left: 8px;
+    font-family: 'Roboto', sans-serif;color: #000;font-size: 12px;font-weight: 300;
+  }
+  .btn {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    border: none;
+    outline: none;
+    background: url(../img/search-icon.png) left top no-repeat;
+    width: 28px;
+    height: 22px;
+  }
 }

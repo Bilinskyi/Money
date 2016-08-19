@@ -1,35 +1,60 @@
 
 $(document).ready(function(){
 
-// $('#slider-1').bxSlider({
-// 		controls: true, 
-// 		pager: false,
-// 		slideWidth: 940,
-// 		minSlides: 4,
-// 		maxSlides: 4,
-// 		moveSlides: 1
-// 	});
+  $('.slider-1').bxSlider({
+    controls: false, 
+    pager: true,
+		// slideWidth: 470,
+		minSlides: 1,
+		maxSlides: 1,
+    mode: 'fade',
+    resposive: true,
+    adaptiveHeight: true,
+    moveSlides: 1
+  });
 
-// $("#owl-demo").owlCarousel({
-//       navigation : true, // Show next and prev buttons
-//       slideSpeed : 300,
-//       paginationSpeed : 400,
-//       singleItem: false,
-//       items: 4,
-//       pagination : true,
-//       itemsDesktop : [1920,4],
-//       navigationText: false,
-//       // autoPlay: 20000,
-//       // "singleItem:true" is a shortcut for:
-//       // items : 1, 
-//       // itemsDesktop : false,
-//       // itemsDesktopSmall : false,
-//       // itemsTablet: false,
-//       // itemsMobile : false
-//     mouseDrag : false,
-//     touchDrag : false
+  $('.slider-2').bxSlider({
+    controls: false, 
+    pager: true,
+    slideWidth: 116,
+    minSlides: 5,
+    maxSlides: 5,
+    slideMargin: 38,
+    mode: 'horizontal',
+    moveSlides: 1
 
-//   });  
+
+  });
+
+
+
+
+  var slider = $('.slider-month').bxSlider({
+    pager: false,
+    // slideWidth: 180,
+    controls: true,
+    minSlides: 4,
+    maxSlides: 4,
+    slideMargin: 30,
+    mode: 'vertical',
+    moveSlides: 1,
+    onSliderLoad: function () {
+
+      $('.slider-month>li:not(.bx-clone)').eq(1).addClass('active');
+    },
+    onSlideAfter: function ($slideElement, oldIndex, newIndex) {
+      $('.slider-month li').removeClass('active');
+      $($slideElement).next().addClass('active');   
+
+    }
+  });
+
+  slider.goToSlide(9);
+
+
+$( ".tabs" ).tabs({
+      event: "mouseover"
+    });
 
  //    $("a.modal-form").fancybox({
  //       'hideOnContentClick': true,
