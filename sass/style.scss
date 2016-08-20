@@ -19,14 +19,14 @@ header {
 	padding-top: 10px;
 	.nav {
 		position: absolute;
-		left: 270px;
+		left: 267px;
 		bottom: 0;
 	}
 	.header-top-right {
 		position: absolute;
 		right: 0;
 		bottom: 12px;
-		width: 455px;
+		width: 451px;
 	}
 	.logo {
 		display: block;
@@ -114,7 +114,7 @@ header {
 .nav {
 	li {
 		float: left;
-		margin-right: 40px;
+		margin-right: 44px;
 		&:last-child {margin-right: 0;}
 		a {
 			text-decoration: none;
@@ -145,8 +145,8 @@ header {
 	}
 	blockquote {
 		margin: 0;
-		margin-bottom: 32px;
-		padding: 80px 0 40px 0;
+		margin-bottom: 29px;
+		padding: 65px 0 46px 0;
 		position: relative;
 		&:after {
 			content: '';
@@ -340,7 +340,7 @@ header {
 }
 
 .wrapp-left-p {
-	padding-left: 82px;
+	padding-left: 88px;
 	position: relative;
 }
 
@@ -393,6 +393,9 @@ header {
 	font-weight: 400;
 	margin: 0 0 0px 0;
 	padding: 0;
+	& + .classic {
+		margin-top: 7px;
+	}
 }
 .classic {
 	margin: 0;
@@ -404,7 +407,7 @@ header {
 
 
 .section-menu {
-	padding-top: 45px;
+	padding-top: 31px;
 }
 
 .navigation-block {
@@ -494,7 +497,7 @@ header {
 
 
 .events {
-	padding-top: 65px;
+	padding-top: 60px;
 	padding-bottom: 20px;
 	background: #f7f7f9;
 
@@ -517,6 +520,9 @@ header {
 		top: 50%;
 		margin-top: -2px;
 		background: #000;
+	}
+	&.line-color:after {
+		background: #a87f37;
 	}
 }
 
@@ -583,7 +589,7 @@ header {
 	width: 650px;
 	right: 0;
 	top: 30px;
-	padding: 25px 25px 25px 130px;
+	padding: 25px 42px 25px 130px;
 	&.img-1 {
 		background: url(../img/cont-1.jpg) left top no-repeat;
 		background-size: cover;
@@ -612,6 +618,7 @@ header {
 		font-size: 24px;
 		line-height: 40px;
 		font-weight: 300;
+		margin-bottom: 43px;
 		b {
 			font-weight: 500;
 		}
@@ -766,5 +773,177 @@ header {
 				color: #c6c6c6;
 			}
 		}
+	}
+}
+
+
+.events-block {
+	padding-top: 65px;
+	padding-bottom: 30px;
+	.title {
+		color: #000;
+	}
+	.g-italic {
+		margin-top: 5px;
+		display: inline-block;
+	}
+	.vertical-text:after {
+		display: none;
+	}
+	.pagination {text-align: center;}
+	
+}
+
+.events-list {
+	padding-top: 40px;
+	.events-item {
+		width: 669px;
+		position: relative;
+		padding-bottom: 8px;
+		border: 1px solid #d4d2d2;
+		margin-bottom: 28px;
+		&:nth-child(odd) {
+			float: left;
+			clear: left;
+		}
+		&:nth-child(even) {
+			float: right;
+		}
+		.date-itm {
+			position: absolute;
+			top: 230px;
+			right: 12px;
+			background: #000;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 24px;
+			text-transform: uppercase;
+			padding-left: 8px;
+			padding-right: 8px;
+			color: #fff;
+
+		}
+		.pers {
+			float: left;
+			margin-left: 17px;
+			display: block;
+			border-radius: 50%;
+			position: relative;
+			top: -79px;
+		}
+		.text-block {
+			padding: 11px 11px 10px 190px;
+			h4 {
+				font-family: 'Roboto Condensed', sans-serif;
+				margin: 0;
+				padding: 0;
+				font-size: 24px;
+				font-weight: normal;
+				color: black;
+				text-transform: uppercase;
+				span {
+					text-transform: none;
+					color: #a87f37;
+					font-style: italic;
+					font-family: 'georgia-italic (1)';
+
+				}
+			}
+			p {
+				color: #333;
+				font-size: 14px;
+				font-weight: 300;
+				line-height: 18px;
+			}
+			.link-1 {
+				float: right;
+			}
+		}
+	}
+
+}
+
+.g-italic {
+	color: #a87f37;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 24px;
+	font-family: 'georgia-italic (1)';
+}
+
+
+.money-bl {
+	background: url(../img/bg.jpg) center top no-repeat;
+	background-size: cover;
+	h3 {
+		font-size: 55px;
+		line-height: 72px;
+		color: black;
+		font-weight: 300;
+		margin: 15px 0;
+		text-align: center;
+		span {
+			font-family: 'georgia-italic (1)';
+			color: #666;
+			font-style: italic;
+			font-weight: normal;
+			text-align: center;
+		}
+	}
+}
+
+
+footer {
+	background-color: #a87f37;
+	padding-top: 43px;
+	.logo {
+		float: right;
+	}
+	.nav {
+		position: absolute;
+		bottom: 0;
+		left: 510px;
+		a {
+			color: white;
+			&:hover { 
+			border-bottom: 2px solid #13517f;
+		}
+		}
+	}
+	.header-top-left {
+		position: absolute;
+		left: 0;
+		bottom: 12px;
+		.menu-btn {
+			float: left;
+			margin-left: 0;
+			margin-right: 30px;
+		}
+		.shop-cart {
+			float: left;
+			background-image: url("../img/shop-top-icon-f.png");
+			&:hover {
+				span {
+					background: #cdcdcd;
+				}
+			}
+			& span {
+				background-color: #13517f;
+			}
+		}
+		.social {
+			margin-left: 39px;
+			a {
+				background-image: url("../img/soc-foot.png");
+			}
+		}
+
+	}
+	.copy {
+		padding: 23px 0 20px;
+		text-align: center;
+		color: #13517f;
+font-size: 14px;
+font-weight: 300;
 	}
 }

@@ -17,9 +17,9 @@ $(document).ready(function(){
     controls: false, 
     pager: true,
     slideWidth: 116,
-    minSlides: 5,
-    maxSlides: 5,
-    slideMargin: 38,
+    minSlides: 6,
+    maxSlides: 6,
+    slideMargin: 35,
     mode: 'horizontal',
     moveSlides: 1
 
