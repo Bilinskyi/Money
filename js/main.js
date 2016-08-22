@@ -2,6 +2,32 @@
 $(document).ready(function(){
 
 
+  $(".js-opacity1").on({
+    mouseenter: function () {
+     $( this ).closest('.content-item').addClass('add-after');
+   },
+   mouseleave: function () {
+     $( this ).closest('.content-item').removeClass('add-after');
+   }
+ });
+
+
+
+  $( "#slider-range" ).slider({
+    range: true,
+    min: 0,
+    max: 124000,
+    step: 2000,
+    values: [ 20000, 103000 ],
+    slide: function( event, ui ) {
+
+     $( ".val-price" ).html( "<div class='left'>" + $( "#slider-range" ).slider( "values", 0 ) +
+      "</div>" + "<div class='right'>" + $( "#slider-range" ).slider( "values", 1 ) + '</div>' );
+   }
+ });
+
+  $( ".val-price" ).html( "<div class='left'>" + $( "#slider-range" ).slider( "values", 0 ) +
+    "</div>" + "<div class='right'>" + $( "#slider-range" ).slider( "values", 1 ) + '</div>' );
 
   $('.slider-1').bxSlider({
     controls: false, 
@@ -51,12 +77,12 @@ $(document).ready(function(){
     }
   });
 
-  slider.goToSlide(9);
+ // slider.goToSlide(9);
 
 
-  $( ".tabs" ).tabs({
-    event: "mouseover"
-  });
+ $( ".tabs" ).tabs({
+  event: "mouseover"
+});
 
  //    $("a.modal-form").fancybox({
  //       'hideOnContentClick': true,
