@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
 
+
+
   $('.slider-1').bxSlider({
     controls: false, 
     pager: true,
@@ -52,9 +54,9 @@ $(document).ready(function(){
   slider.goToSlide(9);
 
 
-$( ".tabs" ).tabs({
-      event: "mouseover"
-    });
+  $( ".tabs" ).tabs({
+    event: "mouseover"
+  });
 
  //    $("a.modal-form").fancybox({
  //       'hideOnContentClick': true,
