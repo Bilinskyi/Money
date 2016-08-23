@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
 	<title>project</title>
-<?php include('incl/header.php'); ?>
+	<?php include('incl/header.php'); ?>
 
 	<main class="banner-main">
 		<div class="wrapper">
@@ -114,7 +114,6 @@
 								</div>
 							</div>
 							<img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
-							<img src="img/w-1.jpg" alt="" width="164" height="222">
 							<div class="vert-2">Искусство<br>управлять собой</div>
 							<div class="head">жизнь без<br>стресса</div>
 						</a>
@@ -127,7 +126,6 @@
 								</div>
 							</div>
 							<img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
-							<img src="img/w-2.jpg" alt="" width="244" height="165">
 							<div class="vert-2">Искусство<br>управлять собой</div>
 							<div class="head">жизнь без<br>стресса</div>
 						</a>
@@ -140,7 +138,6 @@
 								</div>
 							</div>
 							<img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
-							<img src="img/w-3.jpg" alt="" width="164" height="171">
 							<div class="vert-2">Искусство<br>управлять собой</div>
 							<div class="head">жизнь без<br>стресса</div>
 						</a>
@@ -153,7 +150,6 @@
 								</div>
 							</div>
 							<img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
-							<img src="img/w-4.jpg" alt="" width="244" height="173">
 							<div class="vert-2">Искусство<br>управлять собой</div>
 							<div class="head">жизнь без<br>стресса</div>
 						</a>
@@ -298,6 +294,6 @@
 		</div>
 	</div>
 
-<?php include('incl/footer.php'); ?>
+	<?php include('incl/footer.php'); ?>
 </body>
 </html>

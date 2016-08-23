@@ -700,6 +700,7 @@ header {
 	&.img-1 {
 		background: url(../img/cont-1.jpg) left top no-repeat;
 		background-size: cover;
+		min-height: 630px;
 	}
 	.clock {
 		color: #9c9c9e;
@@ -767,20 +768,51 @@ header {
 	float: left;
 	margin-left: 50px;
 	li {
+		z-index: 1;
 		position: relative;
 		float: left;
 		padding-left: 75px;
 		color: #999;
+		&:after {
+			content: '';
+			display: none;
+			position: absolute;
+			height: 2px;
+			background-color: #a87f37;
+		}
+		&:nth-child(1):after {
+			width: 212px;
+			right: -190px;
+			top: 233px;
+		}
+		&:nth-child(2):after {
+			width: 212px;
+			right: -190px;
+			top: 130px;
+		}
+		&:nth-child(4):after {
+			width: 212px;
+			right: -190px;
+			top: 130px;
+		}
+		&:nth-child(3):after {
+			width: 212px;
+			right: -190px;
+			top: 163px;
+		}
 		&:nth-child(odd) {
 			float: right;
 			clear: right;
 			max-width: 240px;
-			overflow: hidden;
 		}	
 		&:nth-child(even) {
 			float: left;
 			max-width: 320px;
 		}	
+		&:nth-child(even):after {
+			width: 476px;
+			right: -452px;
+		}
 		&:nth-child(2) {
 			margin-top: 220px;
 		}
@@ -831,13 +863,29 @@ header {
 		}
 		img {
 			display: block;
-			&.active {
-				display: none;
-			}
+			-webkit-filter: grayscale(100%);
+			-webkit-transition: .3s ease-in-out;
+			-moz-filter: grayscale(100%); 
+			-moz-transition: .3s ease-in-out;
+			-o-filter: grayscale(100%); 
+			-o-transition: .3s ease-in-out;
+
 		}
+
 		&.ui-tabs-active {
-			img {display: none;}
-			img.active {display: block;}
+			&:after {
+				display: block;
+			}
+			img {
+				-webkit-filter: grayscale(0%);
+				-webkit-transition: .3s ease-in-out;
+				-moz-filter: grayscale(0%);
+				-moz-transition: .3s ease-in-out;
+				-o-filter: grayscale(0%);
+				-o-transition: .3s ease-in-out;
+
+			}
+			// img.active {display: block;}
 			.head {
 				color: #000;
 			}
@@ -1731,7 +1779,7 @@ footer {
 		padding-bottom: 6px;
 		color: #333;
 		padding-right: 7px;
-font-size: 24px;
+		font-size: 24px;
 		font-style: italic;
 		font-family: 'georgia-italic (1)';
 		&:first-child {
