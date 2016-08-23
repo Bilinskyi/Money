@@ -1089,7 +1089,7 @@ footer {
 // content
 
 .inner-p {
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	padding-top: 70px;
 }
 
@@ -1098,7 +1098,7 @@ footer {
 	width: 370px;
 	float: left;
 	.menu-left {
-		padding-top: 40px;
+		padding-top: 28px;
 		position: relative;
 		li:last-child {
 			a {
@@ -1111,7 +1111,7 @@ footer {
 			font-style: italic;
 			font-family: 'georgia-italic (1)';
 			text-decoration: none;
-			margin-bottom: 15px;
+			margin-bottom: 20px;
 			display: inline-block;
 			padding-bottom: 5px;
 			border-bottom: 2px solid transparent;
@@ -1124,7 +1124,7 @@ footer {
 
 	.menu-line {
 		padding-bottom: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 		position: relative;
 		&:after {
 			content: '';
@@ -1139,7 +1139,7 @@ footer {
 	}
 
 	.head {
-		padding-bottom: 25px;
+		padding-bottom: 21px;
 		color: #a87f37;
 		font-size: 18px;
 		font-weight: 400;
@@ -1147,7 +1147,7 @@ footer {
 	}
 
 	.radiobtn {
-		margin-bottom: 30px;
+		margin-bottom: 25px;
 		div {
 			margin-bottom: 30px;
 			&:last-child {margin-bottom: 35px;}
@@ -1169,6 +1169,7 @@ footer {
 			padding-bottom: 70px;
 		}
 		&.big-s {
+			margin-top: 27px;
 			padding-top: 52px;
 			padding-bottom: 52px;
 			font-size: 48px;
@@ -1256,7 +1257,7 @@ footer {
 }
 
 .content-wrapp {
-	padding-bottom: 38px;	
+	padding-bottom: 24px;	
 	.content-item {
 		display: block;
 		margin-bottom: 3px;
@@ -1315,7 +1316,7 @@ footer {
 			}
 		}
 		.border-item {
-			padding-bottom: 23px;
+			padding-bottom: 12px;
 			padding-top: 18px;
 			border: 1px solid #e4e4e4;
 			border-top: none;
@@ -1413,7 +1414,7 @@ footer {
 	color: #999;
 	font-size: 14px;
 	font-weight: 400;
-	padding-top: 8px;
+	padding-top: 5px;
 }
 
 .cat-stl {
@@ -1450,6 +1451,7 @@ footer {
 
 .center {text-align: center;}
 .full {
+	margin-top: 42px;
 	font-size: 30px;
 	color: #a87f37;
 	text-transform: uppercase;
@@ -1475,13 +1477,13 @@ footer {
 		font-size: 24px;
 		font-style: italic;
 		line-height: 24px;
-		margin-top: 12px;
+		margin-top: 9px;
 		display: inline-block;
 		font-family: 'georgia-italic (1)';
 	}
 	.bl {
 		margin-top: 43px;
-		margin-bottom: 52px;
+		margin-bottom: 45px;
 	}
 	.abl {
 		color: #cdcdcd;
@@ -1597,5 +1599,97 @@ footer {
 		.content-item:nth-child(5n+1) {
 			clear: left;
 		}
+	}
+}
+
+
+.dsc {
+	color: #333;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding-left: 30px;
+	background: url(../img/adr.png) left center no-repeat;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.txt-1 {
+	color: #525047;
+	font-size: 18px;
+	font-weight: 500;
+	span {
+		font-weight: 300;
+	}
+
+}
+.contact-page {
+	.dsc {
+		margin: 27px 0 22px;
+	}
+
+	em {
+		margin: 9px 0 50px;
+		display: inline-block;
+		color: #a87f37;
+		font-size: 18px;
+		font-style: italic;
+		font-family: 'georgia-italic (1)';
+	}
+	.head-1 {
+		color: #333;
+		font-size: 24px;
+		line-height: 48px;
+		text-transform: uppercase;
+		font-family: 'Roboto Condensed', sans-serif;
+		&.i-1 {
+			padding-left: 30px;
+			background: url(../img/cl.png) left center no-repeat;
+		}
+		&.i-2 {
+			padding-left: 34px;
+			background: url(../img/phone-i.png) left center no-repeat;
+		}
+	}
+
+	.info-block {
+		.l-block {
+			width: 375px;
+			float: left;
+		}
+		.r-block {
+			float: left;
+		}
+	}
+}
+
+.main-t {
+	padding-top: 5px;
+	padding-bottom: 30px;
+	td {
+		padding-bottom: 6px;
+		color: #333;
+		padding-right: 7px;
+font-size: 24px;
+		font-style: italic;
+		font-family: 'georgia-italic (1)';
+		&:first-child {
+			color: #a87f37;
+			font-size: 18px;
+		}
+	}
+	
+}
+
+.map {
+	position: relative;
+	width: 100%;
+	height: 393px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	#map-canvas {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		right: 0;
+		height: 100%;
+		top: 0;
 	}
 }

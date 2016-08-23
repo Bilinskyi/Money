@@ -5,60 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
   <title>project</title>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.min.css">
-  <link rel="stylesheet" href="fonts/fonts.css">  
-<!--  <link rel="stylesheet" href="fancybox/jquery.fancybox.css">
--->  <link rel="stylesheet" href="bx-slider/jquery.bxslider.css">
-<!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
- -->  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
-  </script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
-<body>
-
-  <header>
-    <div class="wrapper">
-      <a href="index.html" class="logo"><img src="img/logo.png" alt="" width="218" height="103"></a>      
-      <div class="header-top-right">
-        <div class="social">
-          <a class="social-icon-1" href="#">&nbsp;</a>
-          <a class="social-icon-2" href="#">&nbsp;</a>
-          <a class="social-icon-3" href="#">&nbsp;</a>
-        </div>
-        <div class="header-search">
-          <form class="search-form" method="post">
-            <input type="search" name="search" placeholder="поиск">  
-            <button class="btn" type="submit"></button>
-          </form>
-        </div>
-        <div class="menu-btn">
-          <div class="drop-menu">
-            <ul class="dropped">
-              <li><a class="icon-1" href="#"><span>Войти / Регистрация</span></a></li>
-              <li><a class="icon-2" href="#"><span>Мой аккаунт</span></a></li>
-              <li><a class="icon-3" href="#"><span>Мои хотелки</span></a></li>
-              <li><a class="icon-4" href="#"><span>Моя корзина</span></a></li>
-              <li><a class="icon-5" href="#"><span>Оформить заказ</span></a></li>
-            </ul> 
-          </div>
-        </div>
-        <div class="shop-cart">
-          <span>4</span>
-        </div>
-      </div>
-      <ul class="nav">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Мероприятия</a></li>
-        <li><a href="#">Продукция</a></li>
-        <li><a href="#">Контент</a></li>
-        <li><a href="#">Партнеры</a></li>
-        <li><a href="#">Форум</a></li>
-      </ul>
-    </div>
-  </header>
+<?php include('incl/header.php'); ?>
 
   <div class="content inner-p">
     <div class="wrapper">
@@ -184,67 +131,6 @@
     </div>
   </div>
 
-  <footer>
-    <div class="wrapper">
-      <div class="logo"><img src="img/logo-foot.png" alt="" width="210" height="93"></div>      
-      <div class="header-top-left">
-        <div class="menu-btn">
-          <div class="drop-menu">
-            <ul class="dropped">
-              <li><a class="icon-1" href="#"><span>Войти / Регистрация</span></a></li>
-              <li><a class="icon-2" href="#"><span>Мой аккаунт</span></a></li>
-              <li><a class="icon-3" href="#"><span>Мои хотелки</span></a></li>
-              <li><a class="icon-4" href="#"><span>Моя корзина</span></a></li>
-              <li><a class="icon-5" href="#"><span>Оформить заказ</span></a></li>
-            </ul> 
-          </div>
-        </div>
-        <div class="shop-cart">
-          <span>4</span>
-        </div>
-
-        <div class="header-search">
-          <form class="search-form" method="post">
-            <input type="search" name="search" placeholder="поиск">  
-            <button class="btn" type="submit"></button>
-          </form>
-        </div>
-
-        <div class="social">
-          <a class="social-icon-1" href="#">&nbsp;</a>
-          <a class="social-icon-2" href="#">&nbsp;</a>
-          <a class="social-icon-3" href="#">&nbsp;</a>
-        </div>
-      </div>
-      <ul class="nav">
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Мероприятия</a></li>
-        <li><a href="#">Продукция</a></li>
-        <li><a href="#">Контент</a></li>
-        <li><a href="#">Партнеры</a></li>
-        <li><a href="#">Форум</a></li>
-      </ul>
-    </div>
-    <div class="wrapper">
-      <div class="copy">Copyright © 2016 festival-deneg.ru</div>
-    </div>
-  </footer>
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-  <script src="bx-slider/jquery.bxslider.min.js"></script>
-<!--  <script src="owl-carousel/owl.carousel.js"></script>
-  <script src="fancybox/jquery.fancybox.pack.js"></script>
-  <script src="js/check_ajax.js"></script>       
-  <script src="js/jquery.maskedinput.js"></script>   
-  <script src="js/jquery.form.js"></script>       
-  <script src="js/jquery.validate.js"></script>     
--->  <script src="js/main.js"></script>
-
-<!-- <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-  <script src="js/yandex.js"></script>    YANDEX MAP-->
-
-<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=places&sensor=true"></script>
-  <script src="js/map_google.js"></script> GOOGLE MAP-->
+<?php include('incl/footer.php'); ?>
 </body>
 </html>
