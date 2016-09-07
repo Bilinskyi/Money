@@ -2,6 +2,12 @@
 $(document).ready(function(){
 
 
+
+
+
+
+
+
   $(".js-opacity1").on({
     mouseenter: function () {
      $( this ).closest('.content-item').addClass('add-after');
@@ -10,6 +16,8 @@ $(document).ready(function(){
      $( this ).closest('.content-item').removeClass('add-after');
    }
  });
+
+
 
 
 
@@ -69,45 +77,64 @@ $(document).ready(function(){
     onSliderLoad: function () {
 
       $('.slider-month>li:not(.bx-clone)').eq(1).addClass('active');
+      
+
+
     },
     onSlideAfter: function ($slideElement, oldIndex, newIndex) {
       $('.slider-month li').removeClass('active');
-      $($slideElement).next().addClass('active');   
-
+      $($slideElement).next().addClass('active'); 
+      monthd();
     }
   });
 
- // slider.goToSlide(9);
+
+
+
+
+ // slider.goToSlide(3);
 
 
  $( ".tabs" ).tabs({
   event: "mouseover"
 });
 
- //    $("a.modal-form").fancybox({
- //       'hideOnContentClick': true,
- //          minWidth : 230,
- //          padding : 0,
- //          closeBtn : true
- 
- // });
 
-// $('header a[href^="#"]').on('click', function(event) {
 
-//     var target = $( $(this).attr('href') );
 
-//     if( target.length ) {
-//         event.preventDefault();
-//         $('html, body').animate({
-//             scrollTop: target.offset().top -85
-//         }, 600);
-//     }
 
-// });
 
-//  jQuery(function($){ 
-//    $(".phone_mask_1").mask("+7(999) 999-9999");
-//    $("#phone_mask_2").mask("+7(999) 999-9999");
-// });
+  function monthd() {
+   var temp1 = $('.month li.active');
+   $('.tabs').css('display', 'none');
+   if ( temp1.hasClass('mon-1') ) {
+    $('.month-1').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-2')) {
+    $('.month-2').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-3')) {
+    $('.month-3').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-4')) {
+    $('.month-4').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-5')) {
+    $('.month-5').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-6')) {
+    $('.month-6').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-7')) {
+    $('.month-7').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-8')) {
+    $('.month-8').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-9')) {
+    $('.month-9').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-10')) {
+    $('.month-10').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-11')) {
+    $('.month-11').closest('.tabs').css('display', 'block');
+  } else if (temp1.hasClass('mon-12')) {
+    $('.month-12').closest('.tabs').css('display', 'block');
+  }
+};
+
+monthd();
+
 
 });

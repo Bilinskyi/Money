@@ -42,7 +42,7 @@
         </p>
         <div class="recommend cat-stl">
           <div class="title line line-color">рекомендуем посмотреть</div>
-          <div class="content-wrapp clearfix">
+          <div class="content-wrapp">
             <div class="content-item">
               <div class="relative-b">
                 <div class="height height-c"><img src="img/c-1.jpg" alt="" width="220" height="155"></div>

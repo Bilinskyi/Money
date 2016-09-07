@@ -89,105 +89,1040 @@
 				<div class="waiting">Вскоре<br>ожидаются</div>
 				<div class="month">
 					<ul class="slider-month">
-						<li><div class="vertical">Декабрь</div></li>
-						<li><div class="vertical">Ноябрь</div></li>
-						<li><div class="vertical">Октябрь</div></li>
-						<li><div class="vertical">Сентябрь</div></li>
-						<li><div class="vertical">Август</div></li>
-						<li><div class="vertical">Июль</div></li>
-						<li><div class="vertical">Июнь</div></li>
-						<li><div class="vertical">Май</div></li>
-						<li><div class="vertical">Апрель</div></li>
-						<li><div class="vertical">Март</div></li>
-						<li><div class="vertical">Февраль</div></li>
-						<li><div class="vertical">Январь</div></li>	
+						<li class="mon-12"><div class="vertical">Декабрь</div></li>
+						<li class="mon-11"><div class="vertical">Ноябрь</div></li>
+						<li class="mon-10"><div class="vertical">Октябрь</div></li>
+						<li class="mon-9"><div class="vertical">Сентябрь</div></li>
+						<li class="mon-8"><div class="vertical">Август</div></li>
+						<li class="mon-7"><div class="vertical">Июль</div></li>
+						<li class="mon-6"><div class="vertical">Июнь</div></li>
+						<li class="mon-5"><div class="vertical">Май</div></li>
+						<li class="mon-4"><div class="vertical">Апрель</div></li>
+						<li class="mon-3"><div class="vertical">Март</div></li>
+						<li class="mon-2"><div class="vertical">Февраль</div></li>
+						<li class="mon-1"><div class="vertical">Январь</div></li> 
 					</ul>
 				</div>
 			</div>
 			<div class="tabs clearfix">
-				<ul class="tabs-list clearfix">
-					<li>
-						<a href="#tabs-1">
-							<div class="date"><span class="l-day">11</span>
-								<div class="date-det">Декабря<br>
-									<span>18.00</span>
-								</div>
-							</div>
-							<img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
-							<div class="vert-2">Искусство<br>управлять собой</div>
-							<div class="head">жизнь без<br>стресса</div>
-						</a>
-					</li>
-					<li>
-						<a href="#tabs-2">
-							<div class="date"><span class="l-day">11</span>
-								<div class="date-det">Декабря<br>
-									<span>18.00</span>
-								</div>
-							</div>
-							<img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
-							<div class="vert-2">Искусство<br>управлять собой</div>
-							<div class="head">жизнь без<br>стресса</div>
-						</a>
-					</li>
-					<li>
-						<a href="#tabs-3">
-							<div class="date"><span class="l-day">11</span>
-								<div class="date-det">Декабря<br>
-									<span>18.00</span>
-								</div>
-							</div>
-							<img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
-							<div class="vert-2">Искусство<br>управлять собой</div>
-							<div class="head">жизнь без<br>стресса</div>
-						</a>
-					</li>
-					<li>
-						<a href="#tabs-4">
-							<div class="date"><span class="l-day">11</span>
-								<div class="date-det">Декабря<br>
-									<span>18.00</span>
-								</div>
-							</div>
-							<img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
-							<div class="vert-2">Искусство<br>управлять собой</div>
-							<div class="head">жизнь без<br>стресса</div>
-						</a>
-					</li>
-					
-				</ul>
-				<div id="tabs-1" class="tabs-content img-1">
-					<div class="clock">18.00 - 21.00</div>
-					<div class="title-0">жизнь без стресса</div>
-					<em>искусство управления эмоциями</em>
-					<p>
-						<b>Психолог</b>, гомеопат, автор уникальных 
-						по своей эффективности целительных 
-						методик, <b>помогающих человеку</b> вернуть 
-						здоровье, повысить благосостояние,
-						управлять своими эмоциями и стать 
-						удачливым. <b>Автор книг</b> «Возлюби болезнь 
-						свою», «Силы намерения», 
-						«Тайны подсознания».
-					</p>
-					<div class="w-60">
-						<div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
-					</div>
-					<div class="soc-share">
-						<a href="#" class="like">273</a>
-						<a href="#" class="comment">23</a>
-					</div>
-				</div>
-				<div id="tabs-2" class="tabs-content img-1">
-					<p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-				</div>
-				<div id="tabs-3" class="tabs-content img-1">
-					<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
-				</div>
-				<div id="tabs-4" class="tabs-content img-1">
-					<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
-				</div>
-			</div>
+        <ul class="month-1 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Январь<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-2 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Февраль<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-3 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Март<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-4 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Апрель<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-5 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Май<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-6 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Июнь<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-7 tabs-list clearfix">
+          <li>
+            <a href="#tabs-">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Июль<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-8 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Август<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-9 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Сентябрь<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-10 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Октябрь<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-11 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Ноябрь<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
+
+      <div class="tabs clearfix">
+        <ul class="month-12 tabs-list clearfix">
+          <li>
+            <a href="#tabs-1">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабрь<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-1-a.jpg" class="active" alt="" width="164" height="222">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-2">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-2.jpg" class="active" alt="" width="244" height="165">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-3">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-3.jpg" class="active" alt="" width="164" height="171">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          <li>
+            <a href="#tabs-4">
+              <div class="date"><span class="l-day">11</span>
+                <div class="date-det">Декабря<br>
+                  <span>18.00</span>
+                </div>
+              </div>
+              <img src="img/w-4.jpg" class="active" alt="" width="244" height="173">
+              <div class="vert-2">Искусство<br>управлять собой</div>
+              <div class="head">жизнь без<br>стресса</div>
+            </a>
+          </li>
+          
+        </ul>
+        <div id="tabs-1" class="tabs-content img-1">
+          <div class="clock">18.00 - 21.00</div>
+          <div class="title-0">жизнь без стресса</div>
+          <em>искусство управления эмоциями</em>
+          <p>
+            <b>Психолог</b>, гомеопат, автор уникальных 
+            по своей эффективности целительных 
+            методик, <b>помогающих человеку</b> вернуть 
+            здоровье, повысить благосостояние,
+            управлять своими эмоциями и стать 
+            удачливым. <b>Автор книг</b> «Возлюби болезнь 
+            свою», «Силы намерения», 
+            «Тайны подсознания».
+          </p>
+          <div class="w-60">
+            <div class="date-content">11 декабря &nbsp;<em>(четверг)</em></div>
+          </div>
+          <div class="soc-share">
+            <a href="#" class="like">273</a>
+            <a href="#" class="comment">23</a>
+          </div>
+        </div>
+        <div id="tabs-2" class="tabs-content img-1">
+          <p>Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+        </div>
+        <div id="tabs-3" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+        <div id="tabs-4" class="tabs-content img-1">
+          <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodalet.</p>
+        </div>
+      </div>
 			<div class="pagination">
 				<a href="#" class="step">первая</a>
 				<ul class="pagination-list">
